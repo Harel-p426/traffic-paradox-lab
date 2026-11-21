@@ -158,6 +158,17 @@ streamlit run app.py                       # interactive demo
 - The Braess network is small, so the numbers (12.5 %, 3,000 to 9,000 drivers) belong to
   this example, not to road networks in general.
 
+  ## Future work
+
+- **Restricted access.** Allow only buses, taxis and ambulances to use the new road. In this
+  model the result is the same formula as for informed drivers (65 − 5q + 20q², with q the share
+  of allowed vehicles), but without hiding the road. Weighting vehicles by passengers or by value
+  of time (an ambulance minute is worth more than a private-car minute) would show when the
+  restriction pays off.
+- **Car versus bus.** Let each traveller choose between driving and public transport, to study
+  how a weak public transport system pushes people into cars and adds congestion
+  (related to the Downs-Thomson paradox).
+
 ## References
 
 - D. Braess, *Über ein Paradoxon aus der Verkehrsplanung*, 1968.
